@@ -7,6 +7,7 @@ For those who are not Persian: all the keywords that are used in the attached fi
 The followings ordered list shows the translation of the keywords in English.
 
 bonemozare---> One of the two principal parts that can be used to form an adjective in Persian
+
 bonemazi--->  One of the two principal parts that can be used to form an adjective in persian
 esm---> Noun
 fe'l---> Verb
