@@ -1,0 +1,255 @@
+Multichar_Symbols +sefatemorakab +sefatesaade +esm +harferabt +bonemozare +bonemazi +passwand +qeid +zamir +pishwand
+
+Lexicon Root
+        
+        sefat_saade_morakab;
+Lexicon sefat_saade_morakab
+        esm;
+        sefat;
+        qeid;
+        adad;
+        zamir;
+        pishvand;
+        bonemozaare;
+        mozaf;
+        fe'l;
+
+Lexicon esm
+d|neC   esm_suffix;
+sang       esm_suffix;
+p|        esm_suffix;
+rang       esm_suffix;
+sar        esm_suffix;
+gorg       esm_suffix;
+k|r       esm_suffix;
+del        esm_suffix;
+Ab        esm_suffix;
+honar      esm_suffix;
+r|h       esm_suffix;
+
+
+
+
+Lexicon esm_suffix
+0:+esm   plus;
+0:+esm   plus1;
+0:+esm   plus2;
+0:+esm   plus3;
+0:+esm   plus4;
+0:+esm   plus5;
+
+Lexicon plus
+0:+   esm1;
+
+Lexicon esm1
+del     esm1_suffix;
+j|     esm1_suffix;
+rang    esm1_suffix;
+zir     esm1_suffix;
+miC    esm1_suffix;
+p|     esm1_suffix;
+hav|   esm1_suffix;
+t|b    esm1_suffix;
+
+Lexicon esm1_suffix
+0:+esmsuffix    mosbat;
+0:+esm          mosbat1;
+0:+         suf_suffix;
+
+Lexicon mosbat
+0:+    sefat1;
+
+Lexicon mosbat1
+0:+    esm2;
+
+Lexicon suf_suffix
+0:+passsuffix    #;
+
+Lexicon plus1
+0:+     harfeezafe;
+
+Lexicon harfeezafe
+bar   suffsuffix;
+be    suffsuffix;
+|    suffsuffix;
+
+Lexicon suffsuffix
+0:+suf    mosbat2;
+
+Lexicon mosbat2
+0:+      esm1;
+
+Lexicon plus2
+0:+     harferabt;
+
+Lexicon  harferabt
+u       harferabt_suffix;
+
+Lexicon harferabt_suffix
+0:+harferabt+    esm1;
+
+Lexicon  plus3
+0:+   sefat1;
+
+Lexicon sefat1
+doruq    suf_suffix;
+Ag|h   suf_suffix;
+tang     suf_suffix;
+
+
+Lexicon plus4
+0:+   qeid1;
+
+Lexicon  qeid1
+b|l|    suf_suffix; 
+p|iin    suf_suffix;
+
+Lexicon  plus5
+0:+    passvand;
+
+Lexicon passvand
+om       suf_suffix;
+omin     suf_suffix;
+gin      suf_suffix;
+mand     suf_suffix;
+var      suf_suffix;
+i        suf_suffix;
+
+
+Lexicon esm2
+gon|h   suf_suffix;
+h|l     suf_suffix;
+k|r     suf_suffix;
+cer|q  suf_suffix;
+del      suf_suffix;
+sar      suf_suffix;
+aql      suf_suffix;
+p|      suf_suffix;
+bahador  suf_suffix;
+
+Lexicon sefat 
+xoC     sefat_suffix;
+si|h    sefat_suffix;
+c|q    sefat_suffix;
+Carm    sefat_suffix;
+
+
+Lexicon sefat_suffix
+0:+sefat     mosbat3;
+
+Lexicon mosbat3
+0:+    esm2;
+0:+    sefat2;
+0:+    harferabt1;
+0:+    esm;
+0:+    passvand;
+
+Lexicon  sefat2
+sefid     suf_suffix;
+cele     suf_suffix;
+ACen|  suf_suffix;
+tav|n    suf_suffix;
+
+Lexicon harferabt1
+u      harferabt1_suffix;
+
+Lexicon harferabt1_suffix
+0:+harferabt+     sefat2;
+
+Lexicon   qeid
+por     qeid_suffix; 
+dir     qeid_suffix;
+piC    qeid_suffix;
+pas     qeid_suffix;
+
+Lexicon qeid_suffix
+0:+qeid+  esm2;
+0:+qeid+  sefat2;
+0:+qeid+  harfeezafe1;
+0:+qeid+  esm;
+
+Lexicon harfeezafe1
+az      harfeezafe1_suffix;
+
+Lexicon harfeezafe1_suffix
+0:+harfeezafe1+    esm2;
+
+Lexicon adad
+iek    adad_suffix;
+duo    adad_suffix;
+
+Lexicon adad_suffix
+0:+adad+   esm2;
+0:+adad+   passvand;
+
+Lexicon zamir
+xud     zamir_suffix;
+man     zamir_suffix;
+
+Lexicon zamir_suffix
+0:+zamir+    esm2;
+0:+zamir+    bonemaazi;
+
+Lexicon bonemaazi
+daraavard    bonemaazi_suffix;
+
+Lexicon bonemaazi_suffix
+0:+bonemaazi+    passvand;
+
+Lexicon  pishvand
+n|    pishvand_suffix;
+baa    pishvand_suffix;
+bi     pishvand_suffix;
+
+Lexicon   pishvand_suffix
+0:+pishvand+   harfeezafe2;
+0:+pishvand+   sefat2;
+0:+pishvand+   esm2;
+
+Lexicon harfeezafe2
+be     harfeezafe2_suffix;
+
+Lexicon  harfeezafe2_suffix
+0:+harfeezafe2+    esm2;
+
+Lexicon bonemozaare
+goriz   bonemozaare_suffix;
+x|b    bonemozaare_suffix;
+
+Lexicon bonemozaare_suffix
+0:+bonemozaare+   esm2;
+0:+bonemozaare+   bonemaazi1;
+
+Lexicon bonemaazi1
+Alud   bonemaazi1_suffix;
+
+Lexicon  bonemaazi1_suffix
+0:+bonemaazi1+    suf_suffix;
+
+Lexicon mozaf
+ahl    mozaf_suffix;
+
+Lexicon  mozaf_suffix
+0:+mozaf+   mozafelaih;
+
+Lexicon  mozafelaih
+saf|    mozafelaih_suffix;
+
+Lexicon mozafelaih_suffix
+0:+mozafelih+   suf_suffix;
+
+Lexicon  fe'l
+bezan    fe'l_suffix; 
+bard|r  fe'l_suffix;
+
+Lexicon  fe'l_suffix
+0:+fe'l+    esm2;
+0:+fe'l+    fe'l1;
+
+Lexicon  fe'l1
+darro    fe'l1_suffix;
+
+Lexicon  fe'l1_suffix
+0:+fe'l1+   suf_suffix;
+
+
