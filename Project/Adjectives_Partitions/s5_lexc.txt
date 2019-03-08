@@ -1,0 +1,162 @@
+Multichar_Symbols +sefatemorakab +sefatesaade +esm +harferabt +bonemozare +bonemazi +passwand +qeid +zamir +pishwand
+
+Lexicon Root
+     sefattarkibi;
+      sefatmobham1;
+
+Lexicon sefatmobham1
+hamehruz     sefatmobham1_suffix;
+hamehsal     sefatmobham1_suffix;
+
+Lexicon sefatmobham1_suffix
+0:+sefatmobham+   pasvand2;
+Lexicon pasvand2
+k|r    pasvand2_suffix;
+gar     pasvand2_suffix;
+andeh    pasvand2_suffix;
+in      pasvand2_suffix;
+i       pasvand2_suffix;
+g|n    pasvand2_suffix;
+ineh    pasvand2_suffix;
+|neh   pasvand2_suffix;
+u      pasvand2_suffix;
+eh      pasvand2_suffix;
+
+Lexicon pasvand2_suffix
+0:+pasvand+   suf_suffix;
+
+
+ Lexicon sefattarkibi 
+        esm4;
+        sefateshare;
+        sefatta'jobi;
+        sefatporseshi;
+        sefatshomareshi;
+        zamir_kalame_mobham;
+        addadd;
+
+Lexicon sefatmobham
+digar   sefatmobham_suffix;
+degar   sefatmobham_suffix;
+
+Lexicon sefatmobham_suffix
+0:+sefatmobham+    suf_suffix;
+
+Lexicon esm4
+ruz     esm4_suffix;
+
+Lexicon esm4_suffix
+0:+esm+   sefatmobham;
+
+Lexicon  zamir_kalame_mobham
+beham|n   zamir_kalame_mobham_suffix;
+ciz       zamir_kalame_mobham_suffix;
+bas        zamir_kalame_mobham_suffix;
+hic       zamir_kalame_mobham_suffix;
+con|n    zamir_kalame_mobham_suffix;
+candin    zamir_kalame_mobham_suffix;
+cand|n   zamir_kalame_mobham_suffix;
+hameh       zamir_kalame_mobham_suffix;
+bas|      zamir_kalame_mobham_suffix;
+
+Lexicon zamir_kalame_mobham_suffix
+0:+zamir_kalame_mobham+  esm5;
+
+Lexicon esm5
+kas     esm5_suffix;
+kasi    esm5_suffix;
+kas|ni  esm5_suffix;
+cizi    esm5_suffix;
+nafar    esm5_suffix;
+s|Eati    esm5_suffix;
+x|neh     esm5_suffix; 
+
+Lexicon esm5_suffix
+0:+esm+    suf_suffix;
+
+Lexicon sefatporseshi
+ce     sefatporseshi_suffix;
+cand   sefatporseshi_suffix;
+kod|m  sefatporseshi_suffix;
+hic    sefatporseshi_suffix;
+
+Lexicon sefatporseshi_suffix
+0:+kalameporseshi+   esm5;
+
+Lexicon sefatshomareshi
+sad     addadd_suffix;
+duo     addadd_suffix;
+haft    addadd_suffix;
+
+Lexicon addadd_suffix
+0:+addad+  ma'dud;
+0:+addad+   harferabt4;
+
+Lexicon harferabt4
+o       harferabt4_suffix;
+
+Lexicon harferabt4_suffix
+0:+harferabt+  ma'dud;
+ 
+Lexicon ma'dud
+hez|r   ma'dud_suffix;
+sad      ma'dud_suffix;
+haCt    ma'dud_suffix;
+
+Lexicon ma'dud_suffix
+0:+ma'dud      suf_suffix;
+0:+ma'dud+    esm5;
+
+Lexicon addadd
+dah    addadd1_suffix;
+hez|r  addadd1_suffix;
+sad    addadd1_suffix;
+
+Lexicon addadd1_suffix
+0:+addadd+   pasvandjam;
+
+Lexicon pasvandjam
+h|     pasvandjam_suffix;
+|n     pasvandjam_suffix;
+
+Lexicon pasvandjam_suffix
+0:+pasvandejam+  suf_suffix;
+
+Lexicon sefatta'jobi
+ajab    kalameta'jobi_suffix;
+ceh     kalameta'jobi_suffix;
+
+Lexicon kalameta'jobi_suffix
+0:+kalameta'jobi+   esm5;
+
+Lexicon sefateshare
+An     kalameeshare_suffix;
+hamin   kalameeshare_suffix;
+in      kalameeshare_suffix;
+|em      kalameeshare_suffix;
+
+Lexicon kalameeshare_suffix
+0:+kalameeshare+   esm5;
+
+Lexicon suf_suffix
+0:+passsuffix    #;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
