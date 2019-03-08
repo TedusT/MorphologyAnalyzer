@@ -5,7 +5,7 @@
 ###### The analyzer is modelled in the high-level declarative language lexc. The attached files in the project folder contain all the lexicons for persian adjectives.
 ------------------------------
 
-For those users who are not Persian: all the keywords that are used in the attached files are translated from Persian to Pinglish. 
+For those users who are not Persian: all the keywords that are used in the attached files are transformed from Persian to Pinglish. 
 The following (alphabetical) ordered list shows the translation of the used keywords in English.
 
 1. bonemozare---> One of the two principal parts that can be used to form an adjective in Persian
