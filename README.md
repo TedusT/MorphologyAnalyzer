@@ -6,13 +6,13 @@ The morphological analyzer proposed in the following paper is modelled in the hi
 For those who are not Persian: all the keywords that are used in the attached files are translated from Persian to Pinglish. 
 The following (alphabetical) ordered list shows the translation of the used keywords in English.
 
-bonemozare---> One of the two principal parts that can be used to form an adjective in Persian
+1.bonemozare---> One of the two principal parts that can be used to form an adjective in Persian
 
-bonemazi--->  One of the two principal parts that can be used to form an adjective in persian
+2.bonemazi--->  One of the two principal parts that can be used to form an adjective in persian
 
-esm---> Noun
+3.esm---> Noun
 
-fe'l---> Verb
+4.fe'l---> Verb
 
 harferabt---> Conjunction
 
